@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+
+    <tittle>Page Title</title>
+
+        <!--Additional elements for browser and robots go here-->
+        
+    </head>
+
+    <body> 
+        <!--Elements visible to user go here-->
+    </body>
+
+    </html>

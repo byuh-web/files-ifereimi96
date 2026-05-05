@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Destination</title>
+</head>
+<body>
+    	
+	<h1>Fiji</h1>
+	<h2>"Why i want to Go"</h2>
+	<p>I want to go to Fiji because to the <strong>Sandy Beaches</strong> and the people</p>
+	<h3> My Top 3 Activities</h3>
+		<ol>
+			<li>Hiking</li>
+			<li>Snookeling</li>
+			<li>Bus Rides</li>
+		</ol>
+<footer>
+            <small>"Source: my imagination"</small>
+            <hr></body></hr>
+
+</footer>
+</html>
