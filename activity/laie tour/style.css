@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image:
+        url("images/decoration.png"),
+        url("images/bg-pattern.jpg");
+
+    background-repeat: no-repeat, repeat;
+    background-position: right top, left top;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #0055aa;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #003366;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    min-height: 500px;
+}
+
+img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    list-style-image: url("images/star.png");
+}
