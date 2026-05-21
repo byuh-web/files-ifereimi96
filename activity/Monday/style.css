@@ -1,0 +1,19 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image:
+        url("images/decoration.png"),
+        url("images/bg-pattern.jpg");
+
+    background-repeat: no-repeat, repeat;
+    background-position: right top, left top;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background-color: #8A0A46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
