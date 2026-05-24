@@ -5,6 +5,11 @@ body {
     font-size: 18px;
     margin: 0;
     line-height: 1.6;
+    background-image: url("Hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
