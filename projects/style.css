@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    background-color: #f0f8f6;
+    color: #1f3b3a;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007f7f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #d9ebe8;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a:hover {
+    color: #ee9b00;
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: #6b705c;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+#overview {
+    background-color: white;
+    border-left: 6px solid #007f7f;
+    padding: 20px;
+   
+}
+
+.beach-card {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #005f73;
+}
+
+.highlight {
+    color: #367588;
+    font-weight: bold;
+}
+
+.deemphasize {
+    color: #6b705c;
+}
+
+ul {
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffd166;
+}
+
+footer a:hover {
+    color: white;
+}
