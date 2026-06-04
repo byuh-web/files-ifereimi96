@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4d6;
+    margin: 0;
+}
+
+header {
+    background-color: #d4a7a3;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+main {
+    padding: 25px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.item {
+    background-color: #f2f200;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.special {
+    grid-column: span 3;
+    background-color: #dfe2e1;
+    font-size: 28px;
+}
