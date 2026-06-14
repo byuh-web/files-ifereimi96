@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, cursive;
+  margin: 0;
+}
+
+header {
+  background-color: #fbf9b6;
+  padding: 5px 15px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+  font: bold;
+  font-family: Great vibes;
+}
+h2{
+    font-family: cursive;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #da75a6;
+}
+
+
+nav a {
+  background-color: #fff1b8;
+  color: black;
+  font-style: italic;
+}
+
+.page-layout {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+aside {
+  width: 30%;
+}
+
+aside img {
+  width: 100%;
+}
+
+main {
+  width: 70%;
+}
+
+main h2 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.cards {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-right: 120px;
+}
+.card-container {
+    margin-left: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-width: right;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+}
+
+.card h3,
+.card p {
+  padding: 0 10px;
+}
+
+
+article {
+  box-shadow: 3px 3px 5px gray;
+  width: 33%;
+}
+
+article img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+article h3,
+article p {
+  padding: 0 1rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .page-layout {
+    flex-direction: column;
+  }
+
+  main,
+  aside {
+    width: 100%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  article {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-box {
+        flex-direction: column;
+    }
+
+    .family-info {
+        width: 100%;
+    }
+
+    .content-box img {
+        width: 100%;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 100%;
+        order: 2;
+    }
+
+    section {
+        width: 100%;
+        order: 1;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .family-heading {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .family-heading h2 {
+        font-size: 45px;
+    }
+}
